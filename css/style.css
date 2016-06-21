@@ -1,0 +1,124 @@
+@import url("../css/font.css");
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body { height: 100%; height: 100vh;}
+
+body.airline {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color: #e5ddca;
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.top-select .form-group{
+	width: 33%;
+}
+
+.hero-feature .top {
+	max-height: 180px;
+}
+small {
+	display: block;
+}
+
+.customers-lists .panel-body{
+	padding: 0;
+
+}
+
+.customers-lists .panel-body.lists{
+	height:100%;
+	height:60vh;
+	overflow: auto;
+}
+
+.customers-lists table {
+	overflow-y: scroll;
+    height: 100%; 
+	position: relative; 
+	padding-top: 52px;
+}
+.customers-lists thead {
+	position: relative; 
+}
+
+.customers-lists tbody {
+	height: -webkit-fit-content;
+    overflow-y: scroll;
+	box-sizing: border-box;
+}
+
+.customers-lists img{
+	margin-right: 15px;
+	max-height:48px;
+	max-width:48px;
+}
+
+.customers-lists .panel-footer {
+	position:relative;
+	bottom: 0;
+}
+
+.time-range td {
+	background-color: rgba(0,0,0,0.10);
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 15px;
+	height:38px;
+}
+
+.time-range td a{
+	background-color: rgba(0,102,102,0.60);
+	height:100%;
+	width:100%;
+	display:inline-block;
+	border-radius: 15px;
+	
+}
+.time-range td a:hover{
+	background-color: rgba(0,102,102,1);
+	
+}
+
+.travel-trends .display {
+	font-size: 21px;
+	line-height: 18px;
+}
+
+.travel-trends small{
+	font-size: 75%;
+	line-height: 14px;
+}
+
+table.latest span.glyphicon{
+	height: 48px;
+	width: 48px;
+	margin-right: 5px;
+	font-size: 32px;
+}
+
+table.latest small{
+	display: block;
+	font-size: 75%;
+}
+
+
+
+
+
+
+
+
